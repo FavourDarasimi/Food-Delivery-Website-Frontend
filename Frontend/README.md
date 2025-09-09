@@ -4,45 +4,50 @@ A responsive and feature-rich frontend for a food delivery web application built
 
 ## Features
 
--   **Dynamic Menu Filtering:** Users can browse all meals or filter them by specific categories like Salads, Rolls, Desserts, and more.
--   **Interactive Shopping Cart:** A fully functional cart system allowing users to add, remove, and view items with real-time updates to the subtotal, delivery fee, and grand total.
--   **Responsive Design:** The UI is beautifully crafted with Tailwind CSS to be fully responsive across desktops, tablets, and mobile devices.
--   **Multi-Step Checkout Process:** A user-friendly, multi-step form for collecting personal and delivery address information to complete an order.
--   **Global State Management:** Utilizes React's Context API (`StoreContext`) to manage application-wide state for the shopping cart and menu data, ensuring a single source of truth.
--   **Modern UI Components:** Includes a reusable modal for login/signup (`AccountAccess`) and cleanly structured components for a scalable and maintainable codebase.
+- **Dynamic Menu Filtering:** Users can browse all meals or filter them by specific categories like Salads, Rolls, Desserts, and more.
+- **Interactive Shopping Cart:** A fully functional cart system allowing users to add, remove, and view items with real-time updates to the subtotal, delivery fee, and grand total.
+- **Responsive Design:** The UI is beautifully crafted with Tailwind CSS to be fully responsive across desktops, tablets, and mobile devices.
+- **Multi-Step Checkout Process:** A user-friendly, multi-step form for collecting personal and delivery address information to complete an order.
+- **Global State Management:** Utilizes React's Context API (`StoreContext`) to manage application-wide state for the shopping cart and menu data, ensuring a single source of truth.
+- **Modern UI Components:** Includes a reusable modal for login/signup (`AccountAccess`) and cleanly structured components for a scalable and maintainable codebase.
 
 ## Technologies Used
 
-| Technology       | Description                                    |
-| ---------------- | ---------------------------------------------- |
-| **React**        | A JavaScript library for building user interfaces. |
+| Technology       | Description                                              |
+| ---------------- | -------------------------------------------------------- |
+| **React**        | A JavaScript library for building user interfaces.       |
 | **Vite**         | A next-generation frontend tooling for fast development. |
-| **Tailwind CSS** | A utility-first CSS framework for rapid UI development. |
-| **React Router** | A standard library for routing in React applications. |
+| **Tailwind CSS** | A utility-first CSS framework for rapid UI development.  |
+| **React Router** | A standard library for routing in React applications.    |
 
 ## Installation
 
 To get a local copy up and running, follow these simple steps.
 
 ➡️ **1. Clone the Repository**
+
 ```bash
 git clone https://github.com/FavourDarasimi/Food-Delivery-Website-Frontend.git
 ```
 
 ➡️ **2. Navigate to the Project Directory**
+
 ```bash
 cd Food-Delivery-Website-Frontend/Frontend
 ```
 
 ➡️ **3. Install NPM packages**
+
 ```bash
 npm install
 ```
 
 ➡️ **4. Run the Development Server**
+
 ```bash
 npm run dev
 ```
+
 The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
 
 ## Usage
@@ -55,31 +60,6 @@ Once the application is running, you can explore its features:
 4.  **Cart Page**: Click the cart icon in the navbar to view your selected items. Here you can adjust quantities or remove items. The total cost is calculated automatically.
 5.  **Checkout**: From the cart, click "Check Out" to proceed to the order page. Fill in your personal and address details in the multi-step form and click "Place Order" to finalize.
 
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
--   **Fork the Project**: Create your own copy of the repository.
--   **Create your Feature Branch**: `git checkout -b feature/AmazingFeature`
--   **Commit your Changes**: `git commit -m 'Add some AmazingFeature'`
--   **Push to the Branch**: `git push origin feature/AmazingFeature`
--   **Open a Pull Request**: Submit your changes for review.
-
 ## License
 
 This project does not have a license. You are free to use the code as you wish.
-
-## Author Info
-
-**Favour Darasimi**
-
--   **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-username)
--   **Twitter**: [@YourTwitterHandle](https://twitter.com/your-username)
-
----
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
